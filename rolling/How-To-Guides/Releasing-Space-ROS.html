@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mars Rover Demo &mdash; Space ROS Documentation: Rolling  documentation</title>
+  <title>Releasing Space ROS &mdash; Space ROS Documentation: Rolling  documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
       <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-    <link rel="canonical" href="https://space-ros.github.io/docs/rolling/Demos/Mars-Rover.html" />
+    <link rel="canonical" href="https://space-ros.github.io/docs/rolling/How-To-Guides/Releasing-Space-ROS.html" />
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
@@ -25,8 +25,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Tutorials" href="../Tutorials.html" />
-    <link rel="prev" title="Canadarm Demo" href="Canadarm.html" /> 
+    <link rel="next" title="Related Projects" href="../Related-Projects.html" />
+    <link rel="prev" title="Using Space-Related Simulation Assets" href="Use-Simulation-Assets.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -57,9 +57,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../Getting-Started/Building-From-Source.html">Building Space ROS from Source</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="reference internal" href="../Demos.html">Demos</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="Canadarm.html">Canadarm Demo</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Mars Rover Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Demos.html">Demos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Demos/Canadarm.html">Canadarm Demo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Demos/Mars-Rover.html">Mars Rover Demo</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../Tutorials.html">Tutorials</a><ul>
@@ -70,15 +70,15 @@
 <li class="toctree-l2"><a class="reference internal" href="../Tutorials/Run-On-RTEMS.html">Running Space ROS on RTEMS</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../How-To-Guides.html">How-to Guides</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../How-To-Guides/Use-Custom-Allocator.html">Using a Custom Memory Allocator with Space ROS</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../How-To-Guides/Reproducing-CI-Results.html">Reproducing CI Results Locally</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../How-To-Guides/Use-Cobra.html">Using the Cobra Static Analyzer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../How-To-Guides/MC-DC-Testing-Tool.html">Using the MC/DC Testing Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../How-To-Guides/Use-VSCode-With-Docker.html">Using VSCode with the Space ROS Docker Images</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../How-To-Guides/Use-The-Dashboard.html">Using the Space ROS Dashboard</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../How-To-Guides/Use-Simulation-Assets.html">Using Space-Related Simulation Assets</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../How-To-Guides/Releasing-Space-ROS.html">Releasing Space ROS</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../How-To-Guides.html">How-to Guides</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Use-Custom-Allocator.html">Using a Custom Memory Allocator with Space ROS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Reproducing-CI-Results.html">Reproducing CI Results Locally</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Use-Cobra.html">Using the Cobra Static Analyzer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MC-DC-Testing-Tool.html">Using the MC/DC Testing Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Use-VSCode-With-Docker.html">Using VSCode with the Space ROS Docker Images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Use-The-Dashboard.html">Using the Space ROS Dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Use-Simulation-Assets.html">Using Space-Related Simulation Assets</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Releasing Space ROS</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../Related-Projects.html">Related Projects</a><ul>
@@ -106,10 +106,10 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="../Demos.html">Demos</a> &raquo;</li>
-      <li>Mars Rover Demo</li>
+          <li><a href="../How-To-Guides.html">How-to Guides</a> &raquo;</li>
+      <li>Releasing Space ROS</li>
       <li class="wy-breadcrumbs-aside">
-              <a href="https://github.com/space-ros/docs/blob/rolling/source/Demos/Mars-Rover.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/space-ros/docs/blob/rolling/source/How-To-Guides/Releasing-Space-ROS.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
   </ul>
   <hr/>
@@ -117,19 +117,50 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="section" id="mars-rover-demo">
-<h1>Mars Rover Demo<a class="headerlink" href="#mars-rover-demo" title="Permalink to this headline"></a></h1>
-<p>TODO:</p>
-<p>Describe how to run the Mars rover demo.
-This may be simply a link to the demo repo that provides the instructions</p>
+  <div class="section" id="releasing-space-ros">
+<h1>Releasing Space ROS<a class="headerlink" href="#releasing-space-ros" title="Permalink to this headline"></a></h1>
+<div class="section" id="before-the-release-window">
+<h2>Before the release window<a class="headerlink" href="#before-the-release-window" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>Determine the release tag of the form rosdist-year.month.point, for example <code class="docutils literal notranslate"><span class="pre">humble-2024.01.0</span></code></p></li>
+<li><p>Open a new issue with a title of the form “year-month Release”, for example  “2024-01 Release”</p></li>
+<li><p>Create a milestone that matches the release tag in each repo under the Space ROS organization</p></li>
+<li><p>Create a new view in the Space ROS Project filtered by milestone</p></li>
+</ul>
+</div>
+<div class="section" id="during-the-release-window">
+<h2>During the release window<a class="headerlink" href="#during-the-release-window" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>Tag issues intended for the release with the correct milestone</p></li>
+<li><p>Update issue status on the project view for the release</p></li>
+</ul>
+</div>
+<div class="section" id="at-the-end-of-the-release-window">
+<h2>At the end of the release window<a class="headerlink" href="#at-the-end-of-the-release-window" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>Create release/distro branches on <code class="xref any docutils literal notranslate"><span class="pre">docker</span></code>, <code class="xref any docutils literal notranslate"><span class="pre">demos</span></code>, <code class="xref any docutils literal notranslate"><span class="pre">simulation</span></code>, <code class="xref any docutils literal notranslate"><span class="pre">docs</span></code>, and <code class="xref any docutils literal notranslate"><span class="pre">process_sarif</span></code>.</p></li>
+<li><p>Update the .repos files to the new versions for the new distro sync.</p></li>
+<li><p>Re-run the tests, creating issues for any that failed.</p></li>
+<li><p>Docker images are already built but only tagged <code class="xref any docutils literal notranslate"><span class="pre">latest</span></code>, must tag release as release name.</p></li>
+<li><p>Add announcements to Website, Docs, and Discourse</p></li>
+<li><p>Create next release milestone and tracking issue</p></li>
+</ul>
+</div>
+<div class="section" id="after-release-window">
+<h2>After release window<a class="headerlink" href="#after-release-window" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>Open issues based on release experience</p></li>
+<li><p>Document lessons learned</p></li>
+</ul>
+</div>
 </div>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="Canadarm.html" class="btn btn-neutral float-left" title="Canadarm Demo" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../Tutorials.html" class="btn btn-neutral float-right" title="Tutorials" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Use-Simulation-Assets.html" class="btn btn-neutral float-left" title="Using Space-Related Simulation Assets" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../Related-Projects.html" class="btn btn-neutral float-right" title="Related Projects" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
